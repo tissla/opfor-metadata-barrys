@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<tvshow>
+  <plot>As a child, Monkey D. Luffy dreamed of becoming King of the Pirates. But his life changed when he accidentally gained the power to stretch like rubber... at the cost of never being able to swim again! Years later, Luffy sets off in search of the 'One Piece', said to be the greatest treasure in the world...
+
+~
+
+**[*One Pace* is a fan project that recuts the *One Piece* anime in an endeavor to bring it more in line with the vision of the original manga by Eiichiro Oda. The team accomplishes this by removing filler scenes not present in the source material, fixing animation errors and correcting subtitles.]**</plot>
+  <outline>As a child, Monkey D. Luffy dreamed of becoming King of the Pirates. But his life changed when he accidentally gained the power to stretch like rubber... at the cost of never being able to swim again! Years later, Luffy sets off in search of the 'One Piece', said to be the greatest treasure in the world...
+
+~
+
+**[*One Pace* is a fan project that recuts the *One Piece* anime in an endeavor to bring it more in line with the vision of the original manga by Eiichiro Oda. The team accomplishes this by removing filler scenes not present in the source material, fixing animation errors and correcting subtitles.]**</outline>
+  <customrating>TV-14</customrating>
+  <dateadded>2024-11-20 23:40:58</dateadded>
+  <title>One Piece</title>
+  <originaltitle>One Pace</originaltitle>
+  <writer>Eiichiro Oda</writer>
+  <credits>Eiichiro Oda</credits>
+  <trailer>plugin://plugin.video.youtube/play/?video_id=1KMcoJBMWE4</trailer>
+  <rating>9</rating>
+  <year>1999</year>
+  <mpaa>TV-14</mpaa>
+  <premiered>1999-10-20</premiered>
+  <releasedate>1999-10-20</releasedate>
+  <genre>Action Adventure</genre>
+  <genre>Anime</genre>
+  <genre>Fantasy Epic</genre>
+  <genre>Modern Odyssey</genre>
+  <genre>Shōnen Jump</genre>
+  <studio>Fuji TV</studio>
+  <studio>Pace Team</studio>
+  <studio>Shueisha</studio>
+  <studio>Toei Animation</studio>
+  <tag>adventure</tag>
+  <tag>adventurer</tag>
+  <tag>anime</tag>
+  <tag>based on manga</tag>
+  <tag>boat</tag>
+  <tag>fantasy</tag>
+  <tag>fight</tag>
+  <tag>friends</tag>
+  <tag>friendship</tag>
+  <tag>liberation</tag>
+  <tag>ocean</tag>
+  <tag>pirate</tag>
+  <tag>sea</tag>
+  <tag>ship</tag>
+  <tag>shounen</tag>
+  <tag>treasure</tag>
+  <tvrageid>8205</tvrageid>
+  <tvdbid>81797</tvdbid>
+  <art>
+    <poster>D:\Torrented TV Collection\One Pace\folder.png</poster>
+    <fanart>D:\Torrented TV Collection\One Pace\backdrop.jpg</fanart>
+  </art>
+  <actor>
+    <name>Akemi Okamura</name>
+    <role>Nami (voice)</role>
+    <type>Actor</type>
+    <thumb>C:\ProgramData\Jellyfin\Server\metadata\People\A\Akemi Okamura\folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Cho</name>
+    <role>Brook (voice)</role>
+    <type>Actor</type>
+    <thumb>C:\ProgramData\Jellyfin\Server\metadata\People\C\Cho\folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Hiroaki Hirata</name>
+    <role>Sanji (voice)</role>
+    <type>Actor</type>
+    <thumb>C:\ProgramData\Jellyfin\Server\metadata\People\H\Hiroaki Hirata\folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Ikue Otani</name>
+    <role>Tony Tony Chopper (voice)</role>
+    <type>Actor</type>
+    <thumb>C:\ProgramData\Jellyfin\Server\metadata\People\I\Ikue Otani\folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Kappei Yamaguchi</name>
+    <role>Usopp (voice)</role>
+    <type>Actor</type>
+    <thumb>C:\ProgramData\Jellyfin\Server\metadata\People\K\Kappei Yamaguchi\folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Katsuhisa Hōki</name>
+    <role>Jinbe (voice)</role>
+    <type>Actor</type>
+    <thumb>C:\ProgramData\Jellyfin\Server\metadata\People\K\Katsuhisa Hōki\folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Kazuki Yao</name>
+    <role>Franky (voice)</role>
+    <type>Actor</type>
+    <thumb>C:\ProgramData\Jellyfin\Server\metadata\People\K\Kazuki Yao\folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Kazuya Nakai</name>
+    <role>Roronoa Zoro (voice)</role>
+    <type>Actor</type>
+    <thumb>C:\ProgramData\Jellyfin\Server\metadata\People\K\Kazuya Nakai\folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Mayumi Tanaka</name>
+    <role>Monkey D. Luffy (voice)</role>
+    <type>Actor</type>
+    <thumb>C:\ProgramData\Jellyfin\Server\metadata\People\M\Mayumi Tanaka\folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Yuriko Yamaguchi</name>
+    <role>Nico Robin (voice)</role>
+    <type>Actor</type>
+    <thumb>C:\ProgramData\Jellyfin\Server\metadata\People\Y\Yuriko Yamaguchi\folder.jpg</thumb>
+  </actor>
+  <id>81797</id>
+  <episodeguide>
+    <url cache="81797.xml">http://www.thetvdb.com/api/1D62F2F90030C444/series/81797/all/en.zip</url>
+  </episodeguide>
+  <season>-1</season>
+  <episode>-1</episode>
+  <status>Continuing</status>
+</tvshow>
