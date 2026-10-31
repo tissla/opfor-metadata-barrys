@@ -10,11 +10,10 @@ from pathlib import Path
 from xml.parsers import expat
 
 
-# Only direct children of the NFO root are removed. In particular, everything
-# inside <art> is retained, including absolute paths and release hash markers.
+# Only direct children of the NFO root are removed.
 LOCAL_FIELDS = frozenset({
     "fileinfo", "lockdata", "lockedfields", "watched", "playcount",
-    "lastplayed", "resume", "userrating",
+    "lastplayed", "resume", "userrating", "art",
 })
 ASSET_EXTENSIONS = frozenset({".png", ".jpg", ".jpeg", ".webp"})
 
@@ -136,7 +135,7 @@ def main() -> int:
         print(f"  {'Would remove' if args.dry_run else 'Removed'} <{tag}>: {count}")
     for name, count in sorted(skipped.items()):
         print(f"  Skipped {name}: {count} files")
-    print("Preserved <art>, <originaltitle>, <dateadded>, filenames and content metadata.")
+    print("Preserved <originaltitle>, <dateadded>, filenames and content metadata.")
     print("Source files unchanged.")
     return 0
 

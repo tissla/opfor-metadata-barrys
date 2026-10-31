@@ -132,22 +132,8 @@ def chapter_info(stem: str, root: ET.Element, arc: ET.Element) -> dict:
     return {"kind": None, "ranges": [], "source": None}
 
 
-def filenames_for(stem: str, root: ET.Element, overrides: dict) -> list[str]:
+def filenames_for(stem: str, overrides: dict) -> list[str]:
     names = {validate_filename(stem)}
-    known_hash = release_hash(stem)
-    for poster in root.findall("./art/poster"):
-        value = (poster.text or "").strip()
-        if not value or "://" in value:
-            continue
-        name = PureWindowsPath(value).name
-        match = re.fullmatch(r"(.+)-thumb\.(?:png|jpe?g|webp)", name, re.I)
-        if not match or match[1] == stem:
-            continue
-        alias = validate_filename(match[1])
-        if not known_hash or release_hash(alias) != known_hash:
-            raise ValueError(
-                "poster alias differs from the NFO filename without an agreeing release hash; review the NFO")
-        names.add(alias)
     aliases = overrides.get("aliases", [])
     if not isinstance(aliases, list):
         raise ValueError("Override aliases must be a list")
@@ -230,7 +216,7 @@ def build_index(library: Path, overrides: dict) -> dict:
                 if entry_id in entries:
                     raise ValueError(f"Duplicate entry ID {
                                      entry_id}; review the source numbering or add an explicit ID override")
-                filenames = filenames_for(path.stem, root, override)
+                filenames = filenames_for(path.stem, override)
                 hashes = sorted(
                     {h for name in filenames if (h := release_hash(name))})
                 entry = {
